@@ -1,20 +1,18 @@
-```markdown
-# Chatbot
+# CogniChat
 
-This is a chatbot application combining a FastAPI backend and Streamlit frontend, deployed on Hugging Face Spaces at (https://huggingface.co/spaces/roar3691/chatbot).
+A chatbot with a FastAPI backend (`app.py`) and Streamlit frontend (`streamlit_ui.py`), hosted at [https://huggingface.co/spaces/roar3691/chatbot](https://huggingface.co/spaces/roar3691/chatbot).
 
 ## Features
-- User authentication (sign up/login).
-- Chat with an AI powered by OpenRouter and Google Search.
-- Conversation summarization.
-- Chat history with rating functionality.
+- Chat with AI (OpenRouter + Google Search).
+- User authentication, history, ratings, and summarization.
 
 ## Setup Instructions
 
 ### Prerequisites
 - Python 3.10
-- MongoDB instance (e.g., MongoDB Atlas)
-- API keys for Google Custom Search and OpenRouter
+- MongoDB (e.g., Atlas)
+- API keys: Google Custom Search, OpenRouter
+
 
 ### Local Installation
 1. Clone the repository:
@@ -33,7 +31,7 @@ This is a chatbot application combining a FastAPI backend and Streamlit frontend
    ```bash
    python app.py
    ```
-4. Open `http://localhost:7860` in your browser.
+4. Open `http://localhost:8000` in your browser.
 
 
 ## Files
