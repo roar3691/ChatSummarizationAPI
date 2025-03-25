@@ -16,8 +16,8 @@ A chatbot with a FastAPI backend (`app.py`) and Streamlit frontend (`streamlit_u
 ### Local Execution
 1. Clone the repo:
    ```bash
-   git clone https://github.com/roar3691/chatbot-assignment.git
-   cd chatbot-assignment
+   git clone https://github.com/roar3691/ChatSummarizationAPI
+   cd ChatSummarizationAPI
    ```
 2. Create a `.env` file:
    ```
